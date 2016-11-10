@@ -1,0 +1,35 @@
+.header-has-photo{
+    background-image: url("../images/harvard-campus-1600.jpg")!important;
+}
+.media{
+    background: #fff;
+    border-top: 4px solid #a51c30;
+    padding: 1em 1.25em;
+}
+.media-left{
+    display: block;
+    float: left;
+    margin: 0 0.75em 1.25em 0;
+    max-width: 80px;
+    width: 30%;
+}
+.media-left>img{
+    height: 54px;
+    width: 80px;
+}
+.media>p{
+    font-size:1.2em;
+}
+.media-heading{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.link{
+    color: #a51c30;
+    text-decoration: underline;
+    font-size:1.2em;
+    text-transform: uppercase;
+}
+.third-section>.container>.row>div>.thumbnail>.caption{
+    padding-top: 0;
+}

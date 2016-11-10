@@ -1,0 +1,133 @@
+.header-has-photo{
+    background-image: url("../images/visitors.JPG")!important;
+}
+.has-photo-main>.text-content>.container>.row>.row{
+    /*float: right;*/
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail{
+    border: 0;
+    margin: 0;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>h3{
+    color:#a51c30;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>.caption>p{
+
+    font-size: 1.3em;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>.caption>p>a{
+    color:#a51c30;
+    text-decoration: underline;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>.caption>p>a:hover{
+    text-decoration: none;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>.caption>h3{
+    font-weight: bold;
+}
+.has-photo-main>.text-content>.container>.row>.row>div>.thumbnail>.caption{
+    padding: 0;
+    padding-left: 20px;
+}
+.h3-has-link2{
+    color:#a51c30;
+}
+.h3-has-link2:after {
+    background-image: url("../images/icon-goto.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* bottom: 0; */
+    content: '';
+    height: 20px;
+    margin: auto;
+    /* right: -32px; */
+    position: absolute;
+    speech: none;
+    /* top: 0; */
+    width: 22px;
+    box-sizing: inherit;
+}
+.Navigate{
+    padding: 120px 40px;
+    position: relative;
+    text-align: center;
+    background-image: url("../images/Map_0.png");
+    background-size: cover;
+}
+.card-callout__content:before, .card-callout__content:after {
+    background: #414141;
+    content: '';
+    height: 1px;
+    left: 20px;
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+    z-index: 3;
+}
+.card-callout__content:before {
+    top: -20px;
+    background: #fff;
+}
+.card-callout__content:after {
+    bottom: -20px;
+    background: #fff;
+}
+.Navigate>.card-callout__content>.page-header{
+    margin: 0;
+    border: 0;
+}
+.Navigate>.card-callout__content>.page-header>h1>span{
+    background: #a51c30;
+    opacity: 0.8;
+
+}
+.Navigate>.card-callout__content>.page-header>h1{
+    font-size:4em;
+    color: #fff;
+}
+.card-callout__content {
+    background: rgba(0,0,0,0.1);
+    margin: auto;
+    max-width: 940px;
+    padding: 3.75em;
+    position: relative;
+    z-index: 2;
+}
+.Navigate>.card-callout__content-outro{
+    padding-top: 50px;
+}
+.Navigate>.card-callout__content-outro>.btn{
+    background: #a51c30;
+    border-color: #7c0516;
+    color: #fff;
+    font-size:1.5em;
+}
+.orange{
+    background: #d16103;
+}
+.orange>.container{
+    text-align: center;
+    padding: 3.75em 2em;
+}
+.orange>.container>.page-header{
+    border: 0;
+}
+.orange>.container>.page-header>h1{
+    display: inline-block;
+    color: #fff;
+    margin: 0;
+    padding: .875em 0;
+    vertical-align:middle;
+    margin-right: .5em;
+}
+.orange>.container>.page-header>.btn{
+    color: #fff;
+    border-color: #fff;
+}
+.first-section{
+    background: #4e84c4;
+}
+.container>.row>.right-content>.jumbotron{
+    background: #4e84c4;
+
+}
